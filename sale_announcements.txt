@@ -1,0 +1,5 @@
+Mirek KIA SUV 20000.000000 
+Mirek Volkswagen Sedan 14000.000000 
+Mirek Kia SUV 2030.000000 
+Mirek Kia SUVIDO 2334.000000 
+Kajtek Skoda Liftback 3000.000000 
