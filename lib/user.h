@@ -36,12 +36,12 @@ public:
 			}
 		}
 		file.close();
-		cout << "Nieprawid³owy login lub haslo!" << endl;
+		cout << "NieprawidÂ³owy login lub haslo!" << endl;
 		isLoggedIn = false;
 		return false;
 	}
 
-	bool registerUser(string _username, string _password) {
+	bool registerUser(const string _username, const string _password) {
 
 		ofstream file("users.txt", ios::app);
 		if (!file.is_open()) {
