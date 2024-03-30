@@ -1,4 +1,4 @@
-﻿#include <iostream>
+#include <iostream>
 #include <vector>
 #include <cstring>
 #include <string>
@@ -19,6 +19,7 @@ int main()
 		cout << "Prosze sie zalogowac, badz zarejestrowac." << endl;
 		cout << "1. Logowanie" << endl;
 		cout << "2. Rejestracja" << endl;
+		cout << "3. Konczenie programu" << endl;
 		cin>>selection;
 		switch (selection) {
 		case 1:
@@ -46,6 +47,16 @@ int main()
 				
 			}
 			break;
+		case 3:
+		{
+			cout << "Konczenie programu.";
+			return 0;
+		}
+		default:
+		{
+			cout << "Wybrales zla liczbe!";
+
+		}
 		}
 	}
 	cout << "Witaj w programie! Wybierz akcje:" << endl;
